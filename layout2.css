@@ -1,0 +1,173 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Sylfaen';
+}
+
+li:after {
+    content: " / ";
+}
+
+li:last-of-type::after {
+    content: "";
+}
+
+.site-header,
+.site-footer {
+    justify-content: space-around;
+    display: flex;
+    position: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.site-footer {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.site-header {
+    border-bottom: 1px solid #c2c2a3;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+.bcontainer {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom: 1px solid #c2c2a3;
+}
+
+.about {
+    text-align: center;
+    width: 45rem;
+}
+
+.hire-button {
+    width: 30%;
+    padding: 15px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.projects-section-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 100px 30px 100px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A9A9A9;
+    background-color: #A9A9A9;
+    margin: 0.5em;
+    padding: 0.5em;
+    min-height: 200px;
+    min-width: 250px;
+    background-image: url(https://image.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.title-box {
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #A9A9A9;
+    background-color: white;
+    min-width: 248px;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 0.5em;
+    flex-wrap: wrap;
+}
+
+.info-section {
+    max-width: 100%;
+    background-color: #d6d6c2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin: 40px 0px 40px 0px;
+}
+
+.fab,
+.fas {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+.whatsnew {
+    margin: 40px 0px 40px 0px;
+}
+
+.news-photo,
+.news-photo2 {
+    width: 120px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.firstnews,
+.secondnews {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
+}
+
+.firstnews {
+    border-bottom: 1px solid#A9A9A9;
+}
+
+.text {
+    margin: 0px 10px 0px 10px;
+}
